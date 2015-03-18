@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.weiyi.reader.view.MyNetImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/novel_gallery_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="10dip"
+    android:scaleType="fitXY" 
+    android:background="@drawable/gallery_unselected_default"/>

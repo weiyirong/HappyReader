@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义标头进度条样式 -->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fromDegrees="0" android:toDegrees="360">
+	<shape android:innerRadiusRatio="4" android:shape="ring"
+		android:thicknessRatio="8" android:useLevel="false">
+		<gradient android:type="sweep" android:centerY="0.50"
+			android:endColor="#1E90FF" android:startColor="#000000"
+			android:centerColor="#FFFFFF" android:useLevel="false" />
+	</shape>
+</rotate>
+	

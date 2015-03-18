@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/footer_main"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="6dip"
+        android:layout_marginTop="4dip"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/main"
+        android:textColor="#808080"
+        android:textScaleX="2.0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/footer_it_business"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dip"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/it_business"
+        android:textColor="#808080"
+        android:textScaleX="2.0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/footer_it_info"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dip"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/it_info"
+        android:textColor="#808080"
+        android:textScaleX="2.0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/footer_help"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dip"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/help"
+        android:textColor="#808080"
+        android:textScaleX="2.0"
+        android:textSize="15sp" />
+
+</LinearLayout>

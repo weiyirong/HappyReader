@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ListView布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 头布局 -->
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/header_layout" />
+    <!-- 底部布局 -->
+
+    <LinearLayout
+        android:id="@+id/footer_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer_main_bg"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/ad" />
+
+        <include layout="@layout/footer_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_menu"
+        android:layout_below="@id/header_layout"
+        android:background="@drawable/list_bg_1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:cacheColorHint="#00000000"
+            android:clickable="true"
+            android:listSelector="@android:color/transparent" />
+    </LinearLayout>
+
+</RelativeLayout>

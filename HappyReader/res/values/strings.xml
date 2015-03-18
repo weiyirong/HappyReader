@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">天鹰乐阅</string>
+    <string name="main">首页</string>
+    <string name="help">更多</string>
+    <string name="it_business">漫画</string>
+    <string name="it_info">下载</string>
+    <string name="exit_hint">再按一次返回键退出程序</string>
+    <string name="not_sdcard">你无SDcard，程序运行将不进行缓存</string>
+    <string name="load_more">加载更多的数据</string>
+    <string name="loading">加载中...</string>
+    <string name="loading_can_not_page">未加载完毕，无法进入下一页...</string>
+    <string name="wait_load">此项还未加载，请耐心等待...</string>
+    <string name="load_over">已经没有更多数据...</string>
+    <string name="socket_timeout">连接超时,请检查网络后重试...</string>
+    <string name="zoom_info">亲,稍等会儿...</string>
+    <string name="not_data">请尝试重新点击加载文章...</string>
+    <string name="info">当前正在运行</string>
+    <string name="close">关闭</string>
+    <string name="read_today">今日</string>
+    <string name="read_time">0次</string>
+    <string name="setting_font">设置字体</string>
+    <string name="setting_pf">清除缓存</string>
+    <string name="setting_about">关于</string>
+    <string name="setting_share">分享</string>
+
+    <!-- 类别标题 -->
+    <string name="disgrace">糗事</string>
+    <string name="seductive">美图赏析</string>
+    <string name="story">奇闻异事</string>
+    <string name="people">人物周刊</string>
+    <string name="military">军事纵横</string>
+    <string name="car">名车一览</string>
+    <!-- 类别简介 -->
+    <string name="disgrace_summary">糗事专刊，主要是分享一些糗事及笑话给大家，每天都能够享受快乐，每天都能有个好心情...</string>
+    <string name="seductive_summary">美图赏析，收罗了喜多非常有趣、非常养眼、非常怀旧、非常给力的美图，阅尽美图，尽在天鹰乐阅...</string>
+    <string name="story_summary">奇闻异事，收集了一些奇闻趣事、奇闻怪事、未解之谜等，分享给大家，了解大千世界无奇不有...</string>
+    <string name="people_summary">人物周刊，包括古今中外的名人轶事、名人生平等，带您穿越时光，讲述那些年那些人的世界...</string>
+    <string name="military_summary">军事纵横，关注最新军事热点，纵横古今中外著名军事战役及军事科技、军事奇才等，带您观遍天下军事，领略军事艺术...</string>
+    <string name="car_summary">名车一览，最新名车、最奇特名车、最贵名车、最古老名车，让您既感受最新名车所带来的震撼冲击，又能品味逝去的那些名车老将的鼎盛岁月...</string>
+
+</resources>

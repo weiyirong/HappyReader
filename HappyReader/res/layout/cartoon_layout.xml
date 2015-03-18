@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cartoon_bg" >
+
+    <include
+        android:id="@+id/header_layout"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        layout="@layout/header_layout" />
+
+    <cn.domob.android.ads.DomobAdView
+        android:id="@+id/domobAdXML"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ScrollView
+        android:id="@+id/cartoon_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_layout"
+        android:layout_above="@id/domobAdXML"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <include
+                android:id="@+id/car_title"
+                layout="@layout/cartoon_title_layout" />
+
+            <com.weiyi.reader.view.MyGridView
+                android:id="@+id/cartoon_grid_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/car_title"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:horizontalSpacing="0dip"
+                android:listSelector="@drawable/list_selector_background_selected"
+                android:numColumns="2"
+                android:verticalSpacing="2dip" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

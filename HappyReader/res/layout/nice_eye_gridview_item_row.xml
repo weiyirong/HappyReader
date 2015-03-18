@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="1dip" >
+
+    <com.weiyi.reader.view.MyNetImageView
+        android:id="@+id/nice_eye_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="1dip"
+        android:background="@drawable/img_bound"
+        android:contentDescription="@string/app_name"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/loadimg_bg" />
+
+    <TextView
+        android:id="@+id/nice_eye_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dip"
+        android:layout_marginTop="2dip"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:singleLine="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TextView点击效果 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+       
+		
+      
+
+        <!--选中时的图片背景-->
+
+        <item android:state_selected="true" android:drawable="@drawable/footermenu_selected_bg" />
+         
+    </selector>

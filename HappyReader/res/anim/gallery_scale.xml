@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gallery选中图片放大效果 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fillAfter="true" android:interpolator="@android:anim/accelerate_interpolator">
+	<scale android:fromXScale="1.0" android:toXScale="1.5"
+		android:fromYScale="1.0" android:toYScale="1.2" 
+		android:pivotX="50%" android:pivotY="50%" android:duration="1000"/>
+</set>

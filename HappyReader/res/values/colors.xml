@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="main_background">#ffe7e7e7</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="news_list_item_backgrounp">#ffe7e7e7</item>
+    <item type="color" name="black">#000000</item>
+    <item type="color" name="white">#FFFFFFFF</item>
+</resources>

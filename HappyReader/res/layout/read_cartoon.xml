@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readCartoon"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.weiyi.reader.view.GestureImageView
+        android:id="@+id/contentView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/loadimg_bg" />
+
+</RelativeLayout>

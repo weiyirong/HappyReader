@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- descendantFocusability="blocksDescendants" 阻止其View接收焦点 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_list_items_selecter"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/mainlist_item_icon"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/car" />
+
+    <RelativeLayout
+        android:id="@+id/mainlist_item_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="20.0dip" >
+
+        <TextView
+            android:id="@+id/mainlist_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text="@string/car"
+            android:textColor="@color/black"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mainlist_item_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainlist_item_title"
+            android:layout_marginBottom="3.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="3.0dip"
+            android:text="@string/car_summary"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/mainlist_item_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/mainlist_item_summary"
+            android:layout_marginLeft="10.0dip"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@+id/mainlist_item_datatime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/mainlist_item_author"
+            android:layout_alignParentRight="true"
+            android:text="@string/read_time"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="20.0dip"
+        android:layout_height="82.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image_list_open_item" />
+
+</RelativeLayout>

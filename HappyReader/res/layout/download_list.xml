@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <cn.domob.android.ads.DomobAdView
+        android:id="@+id/domobAdXML"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <include
+        android:id="@+id/header_layout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/header_layout" />
+
+    <ListView
+        android:id="@+id/download_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/domobAdXML"
+        android:layout_below="@id/header_layout"
+        android:layout_centerInParent="true"
+        android:cacheColorHint="#00000000"
+        android:clickable="true"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>

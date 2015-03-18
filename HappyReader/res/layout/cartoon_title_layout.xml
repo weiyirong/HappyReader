@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <com.weiyi.reader.view.MyNetImageView
+        android:id="@+id/title_image"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/loadimg_bg" />
+
+    <RelativeLayout
+        android:id="@+id/title_control"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_image" >
+
+        <TextView
+            android:id="@+id/page2_show_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/point_images_layout"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/page2_show_date"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5.0dp"
+                android:background="@drawable/image_point_selector"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5.0dp"
+                android:background="@drawable/image_point_selector"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5.0dp"
+                android:background="@drawable/image_point_selector"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
